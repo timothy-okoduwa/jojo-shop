@@ -3,4 +3,5 @@
   publish = "build"
 
 [build.environment]
-  SECRETS_SCAN_OMIT_KEYS = "NODE_ENV,PORT,PAYSTACK_API_URL"
+  NODE_ENV = "production"
+  SECRETS_SCAN_OMIT_KEYS = "NODE_ENV,PORT,PAYSTACK_API_URL,REACT_APP_API_URL"
